@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    scroll-behavior: smooth; /* Hace que el desplazamiento sea suave */
+    scroll-behavior: smooth; 
 
 }
 
@@ -15,7 +15,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
   
   @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR */
 
@@ -90,6 +90,7 @@ background-image: url(./Assets/fondo\ hero.jpg);
 background-position: center;
  background-repeat: no-repeat;
  background-attachment: fixed;
+ box-shadow: 0px 5px 10px 0px #19284b;
 
  background-size: cover;
 
@@ -121,6 +122,8 @@ background-position: center;
 .glaceon h3{
   text-align: center;
   font-family: 'Russo One', sans-serif;
+  text-shadow: 1px 1px 3px rgb(44, 39, 192); 
+
 
   }
   .glaceon p{
@@ -146,6 +149,10 @@ background-position: center;
   border-radius: 15px;
   margin-top: 25px;
 }
+.noticiauno h3{
+  text-shadow: 1px 1px 3px rgb(12, 74, 91); 
+
+}
 
 
 
@@ -170,7 +177,8 @@ background-position: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  box-shadow: 0px 5px 10px 0px #19284b;
+
 }
 
 
@@ -184,16 +192,17 @@ background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
 padding-top: 8rem;
-justify-items: center; /* Centrar horizontalmente */
+justify-items: center; 
 align-items: center;
 row-gap: 4rem;
+
 
 
 }
 
 .cartas p{
   font-family: 'Hind Siliguri', sans-serif;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.446); /* Sombra de texto */
+  text-shadow: 1px 1px 3px rgb(251, 250, 255); 
   text-transform: uppercase; 
                                   
 
@@ -270,7 +279,6 @@ border-radius: 10px;
     height: 200px;
     width: 300px;
     background-image: url(./Assets/fondo\ pokebola.jpg);
-    
     position: absolute;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
@@ -280,6 +288,13 @@ border-radius: 10px;
     grid-template-rows: 1fr 1fr 1fr;
     transition: 300ms;
     z-index: 2;
+}
+.detalle_2 h2{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  text-shadow: 1px 1px 3px rgb(255, 0, 0); 
+
 }
 
 
@@ -371,6 +386,8 @@ p{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    box-shadow: 0px 5px 10px 0px #000000cd;
+
   }
   
   .btn:hover {
@@ -387,6 +404,7 @@ p{
     display: flex;
     justify-content: center;
     padding: 20px;
+    
   }
 
   .Ver_todos {
@@ -405,6 +423,8 @@ p{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    box-shadow: 0px 5px 10px 0px #000000cd;
+
     
     
     
@@ -431,7 +451,8 @@ p{
   background-position: center;
   background-size: cover;
   padding: 100px;
-  height: 700px;  
+  height: 700px; 
+   
   
   
 
@@ -444,6 +465,8 @@ p{
     display: flex;
     max-width: 80%;
     background-color: rgba(0, 0, 0, 0.8); 
+    box-shadow: 0px 5px 10px 0px #000000cd;
+
 
   }
   .gameplay_detalle p{
@@ -478,6 +501,8 @@ p{
  background-size: cover;
     position: relative;
     padding: 50px;
+    box-shadow: 0px 5px 10px 0px #19284b;
+
 }
 .social{
   display: flex;
@@ -490,6 +515,12 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
+}
+.mapa{
+  box-shadow: 0px 5px 10px 0px #19284b;
+
 }
 
 .social ul {
@@ -517,6 +548,7 @@ p{
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    
 }
 
 .social ul img{
